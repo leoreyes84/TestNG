@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [My test suite]">
+  <parameter name="stringA" value="I love "/>
+  <parameter name="stringB" value="test automation"/>
+  <listeners>
+    <listener class-name="com.automation.training.MyCoolListener"/>
+  </listeners>
+  <test name="My first test(failed)">
+    <classes>
+      <class name="com.automation.training.AutomationTest">
+        <methods>
+          <include name="testConcat2" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.automation.training.AutomationTest -->
+    </classes>
+  </test> <!-- My first test(failed) -->
+</suite> <!-- Failed suite [My test suite] -->
