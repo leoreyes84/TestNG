@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- <suite name="My test suite" verbose="1" thread-count="5" parallel="methods"> -->
+<suite name="My test suite">
+	<parameter name="browser" value="chrome"/>
+	<parameter name="textoBuscado" value="Java"/>
+	<test name="My first test">
+		<classes>
+			<class name="com.automation.training.test.WikiTest"></class>
+		</classes>
+	</test>
+</suite>
